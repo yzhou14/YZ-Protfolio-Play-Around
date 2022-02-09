@@ -66,22 +66,29 @@ h4{
     margin-top: 20%;
 }
 
-h3{
+.tab1{
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: auto;
     width: 100%;
+    margin-top: 5%;
+}
+
+.tab1:hover{
+    background: rgba(255, 217, 119, 0.3);
+    border-radius: 50px;
+}
+
+h3{
     font-size: 30px;
     font-family: 'Baloo Bhaijaan 2', cursive;
     color: #515151;
-    margin-top: 5%;
 }
 
 h3:hover{
     font-style: italic;
-    background: rgba(255, 217, 119, 0.3);
-    border-radius: 50px;
     color: #636363;
 }
 
